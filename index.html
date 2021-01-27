@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="calculator.js" defer></script>
+    <!-- <script src="operation.js" defer></script> -->
+    <!-- <script src="assets/scripts/app.js" defer></script> -->
+  </head>
+  <body>
+    <header>
+      <h1>Calculator</h1>
+    </header>
+
+    <section id="calculator">
+      <!-- <input type="number" id="input-number" /> -->
+      <div id="calc-actions">
+        <button type="button" id="btn-add">+</button>
+        <button type="button" id="btn-subtract">-</button>
+        <button type="button" id="btn-multiply">*</button>
+        <button type="button" id="btn-div">/</button>
+        <button type="button" id="btn-exponent">^</button>
+        <button type="button" id="result">=</button>
+        <button type="button" id="clear1">clr</button>
+
+        <button type="button" id="btn-1">1</button>
+        <button type="button" id="btn-2">2</button>
+        <button type="button" id="btn-3">3</button>
+        <button type="button" id="btn-4">4</button>
+        <button type="button" id="btn-5">5</button>
+        <button type="button" id="btn-6">6</button>
+        <button type="button" id="btn-7">7</button>
+        <button type="button" id="btn-8">8</button>
+        <button type="button" id="btn-9">9</button>
+        <button type="button" id="btn-0">0</button>
+        <button type="button" id="btn-sqr">x^2</button>
+        <button type="button" id="btn-cube">x^3</button>
+        <button type="button" id="btn-root">sqr(x)</button>
+        <button type="button" id="btn-factorial1">!</button>
+        <!-- <button type="button" id="btn-xtra">xtra</button> -->
+
+
+
+      </div>
+    </section>
+    <section id="results">
+      <h2 id="current-calculation">0</h2>
+      <p id = "msg1"></p>
+      <h2>Result: <span id="current-result">0</span></h2>
+    </section>
+    <section id="history"> 
+        <button type="button" id="btn-history">Show history</button>  
+        <!-- <button type="button" id="btn-clrhistory">clear history</button>  -->
+        <div id="history1">
+            <p id = "msg2">Calculation history</p> 
+        </div>
+        
+        <!-- <p id ="msg3">here</p>       -->
+      </section>
+  </body>
+</html>
